@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">376315150791-g0ed8gd107elb3ls017r1k6p27sl4g02.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://vuetest-72797.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">376315150791</string>
+    <string name="google_api_key" translatable="false">AIzaSyB575pHKfioDvTly1Bo5uUBbdSbAXjzj1E</string>
+    <string name="google_app_id" translatable="false">1:376315150791:android:8d57ccc406aaa9d1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB575pHKfioDvTly1Bo5uUBbdSbAXjzj1E</string>
+    <string name="google_storage_bucket" translatable="false">vuetest-72797.appspot.com</string>
+    <string name="project_id" translatable="false">vuetest-72797</string>
+</resources>

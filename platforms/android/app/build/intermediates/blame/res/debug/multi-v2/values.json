@@ -1,0 +1,177 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "86,87,117",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4850,4914,8450",
+                        "endColumns": "63,47,58",
+                        "endOffsets": "4909,4957,8504"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\src\\main\\res\\values\\cordova-plugin-firebase-strings.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "107,108",
+                        "startColumns": "4,4",
+                        "startOffsets": "7460,7540",
+                        "endColumns": "79,69",
+                        "endOffsets": "7535,7605"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "109,111,112,113,114,115,116,118",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "7610,7836,7944,8026,8130,8233,8353,8509",
+                        "endColumns": "143,107,81,103,102,119,96,73",
+                        "endOffsets": "7749,7939,8021,8125,8228,8348,8445,8578"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.1.0.aar\\0d82fccb4358191f56ecf1f62dedacf8\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "84,97",
+                        "startColumns": "4,4",
+                        "startOffsets": "4712,6167",
+                        "endColumns": "67,166",
+                        "endOffsets": "4775,6329"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.4.aar\\4ce668a516317dd0a163c1b921be0ef5\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "110",
+                        "startColumns": "4",
+                        "startOffsets": "7754",
+                        "endColumns": "81",
+                        "endOffsets": "7831"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a68aab05a24f3fbfdace04bf086d43b4\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10,89,90,91,92,93,94,95,96,98,99,100,101,102,103,104,105,106",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "193,283,363,453,543,623,704,784,5127,5232,5413,5538,5645,5825,5948,6064,6334,6522,6627,6808,6933,7108,7256,7319,7381",
+                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78",
+                        "endOffsets": "278,358,448,538,618,699,779,859,5227,5408,5533,5640,5820,5943,6059,6162,6517,6622,6803,6928,7103,7251,7314,7376,7455"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-tagmanager-16.0.5.aar\\8883d0d0b7ec012ccb73024a9f9c2b44\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "120,121,122",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "8654,8724,8808",
+                        "endColumns": "69,83,67",
+                        "endOffsets": "8719,8803,8871"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\7a54770cb099c2ec34584229644513e8\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "13,16,18,83,128,130,131,136,138",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "996,1178,1307,4652,9194,9370,9492,9754,9949",
+                        "endColumns": "88,70,72,59,65,121,60,65,66",
+                        "endOffsets": "1080,1244,1375,4707,9255,9487,9548,9815,10011"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\33ebd26126937ca5fbd069bd0e0c5e99\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "11,12,17,19,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,85,119,123,124,129,132,137,139,140",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "864,933,1249,1380,3011,3081,3149,3221,3291,3352,3413,3474,3536,3600,3662,3723,3791,3891,3951,4017,4090,4159,4216,4268,4330,4402,4478,4513,4548,4582,4617,4780,8583,8876,8993,9260,9553,9820,10016,10088",
+                        "endLines": "11,12,17,19,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,85,119,123,127,129,135,137,139,140",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,33,34,34,69,70,116,12,109,12,128,71,66",
+                        "endOffsets": "928,991,1302,1449,3076,3144,3216,3286,3347,3408,3469,3531,3595,3657,3718,3786,3886,3946,4012,4085,4154,4211,4263,4325,4397,4473,4508,4543,4577,4612,4647,4845,8649,8988,9189,9365,9749,9944,10083,10150"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,14,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "150,1085,1129",
+                        "endColumns": "42,43,48",
+                        "endOffsets": "188,1124,1173"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "0",
+                        "startOffsets": "311",
+                        "endColumns": "162",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "88",
+                        "startColumns": "4",
+                        "startOffsets": "4962",
+                        "endColumns": "164",
+                        "endOffsets": "5122"
+                    }
+                }
+            ]
+        }
+    ]
+}
