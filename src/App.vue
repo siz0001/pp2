@@ -28,7 +28,7 @@
     </v-navigation-drawer>
     <v-toolbar app fixed clipped-left>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>Fising Friends</v-toolbar-title>
     </v-toolbar>
     <v-content>
       <v-container fluid fill-height>
@@ -49,18 +49,18 @@
     
 <v-tabs-slider color="yellow"></v-tabs-slider>
     <v-tab href="#tab-1">
-      Recents
-      <v-icon>phone</v-icon>
+      나눔목록
+      <v-icon>view_list</v-icon>
     </v-tab>
 
     <v-tab href="#tab-2">
-      Favorites
-      <v-icon>favorite</v-icon>
+      랭킹
+      <v-icon>stars</v-icon>
     </v-tab>
 
     <v-tab href="#tab-3">
-      Nearby
-      <v-icon>account_box</v-icon>
+      지도
+      <v-icon>place</v-icon>
     </v-tab>
 
   </v-tabs>
