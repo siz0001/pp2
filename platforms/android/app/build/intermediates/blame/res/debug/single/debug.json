@@ -36,12 +36,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a68aab05a24f3fbfdace04bf086d43b4\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a68aab05a24f3fbfdace04bf086d43b4\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a68aab05a24f3fbfdace04bf086d43b4\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a68aab05a24f3fbfdace04bf086d43b4\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light_focused.xml.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\7a54770cb099c2ec34584229644513e8\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\33ebd26126937ca5fbd069bd0e0c5e99\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\33ebd26126937ca5fbd069bd0e0c5e99\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\33ebd26126937ca5fbd069bd0e0c5e99\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\lenovo\\Vueprojects\\pp2\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",

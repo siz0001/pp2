@@ -74,6 +74,7 @@
         "loglevel": "^1.4.1",
         "vue": "^2.5.3",
         "vue-router": "^3.0.1",
+        "vue2-google-maps": "^0.10.2",
         "vuetify": "^1.3.5"
     },
     "engines": {

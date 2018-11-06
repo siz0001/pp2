@@ -5,8 +5,7 @@
       v-model="drawer"
       clipped
       fixed
-      app
-    >
+      app>
       <v-list dense>
         <v-list-tile @click="">
           <v-list-tile-action>
@@ -26,44 +25,41 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar app fixed clipped-left>
+
+    <v-toolbar id="main-toolbar" app fixed clipped-left>
       <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title>Fising Friends</v-toolbar-title>
+      <v-toolbar-title><span class="size-26">온 바 다</span></v-toolbar-title>
     </v-toolbar>
+    
     <v-content>
-      <v-container fluid fill-height>
-        <v-layout justify-center align-center>
-          <v-flex shrink>
-                        <router-view></router-view>
-          </v-flex>
-        </v-layout>
-      </v-container>
+        
+            <router-view></router-view>
+        
     </v-content>
-    
-      <v-tabs
-      fixed-tabs
-    centered    
-    dark
-    icons-and-text
-  >
-    
-<v-tabs-slider color="yellow"></v-tabs-slider>
-    <v-tab href="#tab-1">
-      나눔목록
-      <v-icon>view_list</v-icon>
-    </v-tab>
+    <v-bottom-nav
+      :active.sync="bottomNav"
+      :color="color"
+      :value="true"      
+      app
+      fixed
+    >
+      <v-btn dark :to="{path:'/'}">
+        <span>나눔목록</span>
+        <v-icon>view_list</v-icon>
+      </v-btn>
 
-    <v-tab href="#tab-2">
-      랭킹
-      <v-icon>stars</v-icon>
-    </v-tab>
+      <v-btn dark :to="{path:'/ranking'}">
+        <span>랭킹</span>
+        <v-icon>stars</v-icon>
+      </v-btn>
 
-    <v-tab href="#tab-3">
-      지도
-      <v-icon>place</v-icon>
-    </v-tab>
+      <v-btn dark :to="{path:'/usermap'}">
+        <span>지도</span>
+        <v-icon>place</v-icon>
+      </v-btn>
+    </v-bottom-nav>
+  
 
-  </v-tabs>
 
   </v-app>
 </template>
@@ -71,10 +67,62 @@
 <script>
   export default {
     data: () => ({
-      drawer: null
+      drawer: null,
+      bottomNav: 3
     }),
     props: {
       source: String
+    },
+    computed: {
+      color () {
+        switch (this.bottomNav) {
+          case 0: return '#4158d0'
+          case 1: return '#c850c0'
+          case 2: return '#ffcc70'
+          
+        }
+      }
     }
   }
 </script>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@font-face {
+  font-family: 'Hanna';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.eot);
+  src: url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.ttf) format('truetype');
+}
+
+  #main-toolbar {
+    background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+    );
+    font-family: 'Hanna', sans-serif;
+    text-align: center;
+  }
+
+  #tabbar1 {
+    background-color: #4158d0 ;   
+    font-family: 'Hanna', sans-serif;
+  }
+  
+  #tabbar2 {     
+    background-color: #c850c0;   
+    font-family: 'Hanna', sans-serif;
+  }
+
+  #tabbar3 {
+    background-color: #c9a157 ;
+    font-family: 'Hanna', sans-serif;
+  }
+.size-26 { font-size: 26px }
+
+</style>
